@@ -1,0 +1,4 @@
+1. What is structure padding?  Ref: https://stackoverflow.com/questions/5397447/struct-padding-in-c
+ANS: In order to align the data in memory,  one or more empty bytes (addresses) 
+are inserted (or left empty) between memory addresses which are allocated for 
+other structure members while memory allocation. This concept is called structure padding.
